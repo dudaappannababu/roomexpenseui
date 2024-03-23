@@ -1,3 +1,7 @@
+# To deploy in github pages refer this link
+https://www.youtube.com/watch?v=Q9n2mLqXFpU
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

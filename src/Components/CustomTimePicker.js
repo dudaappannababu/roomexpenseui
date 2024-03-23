@@ -11,7 +11,7 @@ import { StaticTimePicker } from '@mui/x-date-pickers/StaticTimePicker';
 function CustomTimePicker(props) {
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}>
-          <MobileTimePicker defaultValue={props.time} onChange={(newValue) => props.setTime(newValue)} />
+          <MobileTimePicker defaultValue={props.time} onChange={(newValue) => props.setTime(newValue)} sx={{ marginTop: "1vh", width:"12vh" }} />
     </LocalizationProvider>
   );
 }

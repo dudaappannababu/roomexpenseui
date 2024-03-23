@@ -21,6 +21,12 @@ function CustomTable(props) {
                     <TableCell align="right">{expense.amount}</TableCell>
                     <TableCell align="right">{expense.category}</TableCell>
                     <TableCell align="right">{expense.description}</TableCell>
+                    <TableCell align="right">{expense.paid_by}</TableCell>
+                    <TableCell align="right">{expense.AB}</TableCell>
+                    <TableCell align="right">{expense.GS}</TableCell>
+                    <TableCell align="right">{expense.AJ}</TableCell>
+                    <TableCell align="right">{expense.SJ}</TableCell>
+                    <TableCell align="right">{expense.for_room?"Yes":"No"}</TableCell>
                 </TableRow>
             );
         });
@@ -36,6 +42,12 @@ function CustomTable(props) {
             <TableCell align="right">amount</TableCell>
             <TableCell align="right">category</TableCell>
             <TableCell align="right">description</TableCell>
+            <TableCell align="right">paid_by</TableCell>
+            <TableCell align="right">AB</TableCell>
+            <TableCell align="right">GS</TableCell>
+            <TableCell align="right">AJ</TableCell>
+            <TableCell align="right">SJ</TableCell>
+            <TableCell align="right">for_room</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
